@@ -2,7 +2,7 @@
 const SUPABASE_URL = "PEGA_AQUI_TU_PROJECT_URL";
 const SUPABASE_ANON_KEY = "PEGA_AQUI_TU_ANON_PUBLIC_KEY";
 
-const configured = SUPABASE_URL.startsWith("https://") && !SUPABASE_URL.includes("PEGA_AQUI") && !SUPABASE_ANON_KEY.includes("PEGA_AQUI");
+const configured = SUPABASE_URL.startsWith("https://") && !SUPABASE_URL.includes("https://mrrszgrfnwqmskeickxo.supabase.co/rest/v1/") && !SUPABASE_ANON_KEY.includes("sb_publishable_e8_he6W59L3y0f8aRIuQLQ_NwsazOZ4");
 const db = configured && window.supabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
 const $ = (id) => document.getElementById(id);
 let currentUser = null;
