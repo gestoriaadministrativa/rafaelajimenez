@@ -1,0 +1,14 @@
+{
+  "name": "Gestoría Administrativa Rafaela Jiménez Molina",
+  "short_name": "Gestoría Rafaela",
+  "description": "Portal privado de clientes y expedientes",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f6f8",
+  "theme_color": "#17324d",
+  "lang": "es",
+  "icons": [
+    {"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}
+  ]
+}
